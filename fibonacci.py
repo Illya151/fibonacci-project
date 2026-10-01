@@ -7,6 +7,6 @@ def fibonacci(n):
     return fib_sequence[:n]
 
 if __name__ == "__main__":
-    n_terms = 10
+    n_terms = 15
     print(f"Перші {n_terms} чисел Фібоначчі:")
     print(fibonacci(n_terms))
